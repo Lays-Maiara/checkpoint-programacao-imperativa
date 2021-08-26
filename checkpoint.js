@@ -38,7 +38,7 @@ function menuMicroondas(opcao, tempoUsuario) {
       return
   }
 
-  if (tempoUsuario > 2 * tempoPadrao && tempoUsuario < 3 * tempoPadrao) {
+  if ((tempoUsuario > 2 * tempoPadrao) && (tempoUsuario < 3 * tempoPadrao)) {
     console.log('A comida queimou')
   } else if (tempoUsuario < tempoPadrao) {
     console.log('Tempo insuficiente')
